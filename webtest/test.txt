@@ -1,0 +1,6 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+login
+    open browser    http://172.20.21.176:18080/rrdop/login.html    firefox
